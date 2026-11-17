@@ -1,0 +1,10 @@
+{
+  "from": { "name": "Harbor Design Co.", "email": "billing@harbor.example" },
+  "to": { "name": "Ledgerline, Inc." },
+  "items": [
+    { "description": "Website design", "quantity": 24, "unit_price": 65 },
+    { "description": "Hosting, 12 months", "unit_price": 120 }
+  ],
+  "tax": { "percent": 6, "label": "Sales tax (6%)" },
+  "due_days": 30
+}

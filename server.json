@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.rowhousesoftware/platemark",
+  "title": "Platemark",
+  "description": "Render API: chart images, invoice and receipt PDFs with the math done, social images and video.",
+  "websiteUrl": "https://platemark.rowhousesoftware.com",
+  "version": "1.3.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://platemark.rowhousesoftware.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer pm_... key. Optional: without one, images, charts and PDFs work 3 times a day per address with a watermark. Get a free key at platemark.rowhousesoftware.com, or call the create_account tool.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

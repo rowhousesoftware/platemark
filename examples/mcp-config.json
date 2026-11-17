@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "platemark": {
+      "type": "http",
+      "url": "https://platemark.rowhousesoftware.com/mcp",
+      "headers": { "Authorization": "Bearer pm_YOUR_KEY" }
+    }
+  }
+}
